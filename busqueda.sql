@@ -124,7 +124,7 @@ WHERE idconsorcio <= 250
 ------------------------------------------------------------------
 --parte 2
 -- Calcular el tiempo transcurrido
-SELECT gn.* , pro.*
+SELECT gn.*
 FROM gastonew as gn
 WHERE idconsorcio <= 250
 
