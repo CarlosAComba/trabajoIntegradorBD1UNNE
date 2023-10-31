@@ -26,7 +26,7 @@ CREATE TABLE [dbo].[gastonew](
 );
 
 
--- Crear un índice columnar no agrupado 
+-- Crear un ï¿½ndice columnar no agrupado 
 CREATE NONCLUSTERED COLUMNSTORE INDEX IX_GASTONEW_Columnar
 ON dbo.GASTONEW
 (
